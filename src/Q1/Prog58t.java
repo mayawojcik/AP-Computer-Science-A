@@ -15,5 +15,11 @@ public class Prog58t {
 
         System.out.printf("Amount due: " + change_dueRounded);
 
+        double dollars = 1;
+        double quarters = 0.25;
+        double times = 0.10;
+        double nickles = 0.05;
+        double pennies = 0.01;
+
     }
 }

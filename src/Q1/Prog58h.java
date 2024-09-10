@@ -16,7 +16,9 @@ public class Prog58h {
 
         double r_over_n = ((0.01*r) / n);
         double expo = ((n*t) / 365);
+        double Aa = (p * (1 + (int)Math.pow(((0.01*r) / n), ((n*t) / 365))));
         double A = (p * ( 1 + (int)Math.pow(r_over_n, expo)));
         System.out.print("Amount in savings now: " + A);
+
     }
 }

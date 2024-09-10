@@ -19,9 +19,7 @@ public class Prog58h {
 
         double r_over_n = ((0.01 * r)/ n);
         double e = (n * t)/365;
-
-        double A = p * (int)Math.pow(r_over_n, e);
-
+        double A = (p * ( 1 + (int)Math.pow(r_over_n, e)));
         System.out.print("Amount in savings now: " + A);
     }
 }

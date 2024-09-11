@@ -17,7 +17,6 @@ public class porg88a {
         int max, min;
 
 
-
         // the code inside 'if' will only run if the condition is true
         if (num1 > num2) {
             max = num1;

@@ -10,14 +10,9 @@ public class Prog58t {
         System.out.print("Enter amount received: ");
         double amountR = input.nextDouble();
 
-        double change_due = amountR - price;
-        double change_dueRounded = Math.round(change_due * 100) / 100.0;
-        System.out.printf("Amount due: " + change_dueRounded);
-        double dollars = 1;
-        double quarters = 0.25;
-        double times = 0.10;
-        double nickles = 0.05;
-        double pennies = 0.01;
+        double changedue = amountR - price;
+        System.out.printf("Change due: = %.2f\n", changedue);
+
 
 
     }

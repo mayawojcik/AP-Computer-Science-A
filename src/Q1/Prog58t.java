@@ -10,8 +10,12 @@ public class Prog58t {
         System.out.print("Enter amount received: ");
         double amountR = input.nextDouble();
 
-        double changedue = amountR - price;
-        System.out.printf("Change due: = %.2f\n", changedue);
+        double change = amountR - price;
+        System.out.printf("Change due: = %.2f\n", change);
+
+        double dollars = change / 1.00;
+        System.out.printf("Dollars: = %.2f\n", dollars);
+
 
 
 

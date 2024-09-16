@@ -38,3 +38,13 @@ public class Prog58t {
 
     }
 }
+/*
+Enter purchase price: 125.32
+Enter amount received: 140
+Change due: = 14.68
+Dollars: = 14
+Quarters: = 2
+Dimes: = 1
+Nickels: = 1
+Pennies: = 3
+ */

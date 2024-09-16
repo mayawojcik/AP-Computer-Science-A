@@ -11,9 +11,14 @@ public class Prog76a {
         int product = num * 9;
         int output = product * 12345679;
 
-        System.out.print(num + "X" + "9");
-
-        System.out.print(output);
+        System.out.println(num + "X" + "9");
+        System.out.println(product + " X" + " 12345679");
+        System.out.println(output);
 
     }
 }
+/*
+5X9
+45 X 12345679
+555555555
+ */

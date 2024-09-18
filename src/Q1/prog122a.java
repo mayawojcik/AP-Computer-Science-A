@@ -6,9 +6,9 @@ public class prog122a {
         Scanner input = new Scanner(System.in);
 
         int lcv = 0;
-        int squared = (int)Math.pow(1-50, 2);
         while (lcv <= 48+1) {
             lcv += 1;
+            int squared = (int)Math.pow(lcv, 2);
             System.out.println(lcv + " " + squared);
         }
 

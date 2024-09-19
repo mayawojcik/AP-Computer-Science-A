@@ -6,11 +6,12 @@ public class prog122a {
         Scanner input = new Scanner(System.in);
 
         int lcv = 0;
+        System.out.println("Number" + " " + "Square" + " " + "Square root");
         while (lcv <= 48+1) {
             lcv += 1;
             int squared = (int)Math.pow(lcv, 2);
             double sqrt = (double)Math.sqrt(lcv);
-            System.out.println(lcv + "  " + squared + "  " + sqrt);
+            System.out.println(lcv + "      " + squared + "      " + sqrt);
 
         }
 

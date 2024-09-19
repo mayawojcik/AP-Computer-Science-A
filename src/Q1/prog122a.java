@@ -10,7 +10,8 @@ public class prog122a {
             lcv += 1;
             int squared = (int)Math.pow(lcv, 2);
             double sqrt = (double)Math.sqrt(lcv);
-            System.out.println(lcv + " " + squared + " " + sqrt);
+            System.out.println(lcv + " " + squared + " "); System.out.printf("%.4f\n", sqrt);
+
         }
 
 

@@ -12,9 +12,17 @@ public class Prog72t {
         int time = Math.abs(time2 - time1);
         int num = time / 100;
         int num2 = (int)Math.floor(num);
-        System.out.print(num2);
+        int num3 = time - 800;
+        System.out.print(num2 + " hours ");
+        System.out.print(num3 + " minutes");
+
 
 
 
     }
 }
+/*
+Enter the first time: 900
+Enter the second time: 1730
+8 hours 30 minutes
+ */

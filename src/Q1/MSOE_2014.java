@@ -21,3 +21,5 @@ public class MSOE_2014 {
         System.out.printf("%s contains %d double letters\n", word, dblcnt);
     }
 }
+// strings r a class, int boolean double r a primitive type. cant use string == with an object since it will check to see if it has the same memory address.
+// never use == when working with strings, .equals() works with strings

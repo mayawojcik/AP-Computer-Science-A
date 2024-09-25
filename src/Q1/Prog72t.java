@@ -10,7 +10,9 @@ public class Prog72t {
         System.out.print("Enter the second time: ");
         int time2 = input.nextInt();
         int time = Math.abs(time2 - time1);
-        System.out.print
+        int num = time / 100;
+        int num2 = (int)Math.floor(num);
+        System.out.print(num2);
 
 
 

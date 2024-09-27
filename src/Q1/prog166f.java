@@ -3,10 +3,13 @@ import java.util.*;
 
 public class prog166f {
     public static void main(String[] args) {
-        int lcv = 0;
-        while (lcv <= 10) {
-            lcv += 1;
-            System.out.printf("%d", lcv);
+        int lcv1 = 0;
+        int lcv2 = 0;
+        while (lcv1 < 100) {
+            lcv1 += 1;
+            lcv2 += lcv1;
+
+
         }
 
     }

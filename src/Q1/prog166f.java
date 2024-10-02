@@ -36,3 +36,16 @@ public class prog166f {
         lcv2 += 111;
     }
 }
+/*
+The sum of the numbers 1-100: 5050
+The sum of the numbers 1-101: 5151
+The sum of the numbers 1-102: 5253
+The sum of the numbers 1-103: 5356
+The sum of the numbers 1-104: 5460
+The sum of the numbers 1-105: 5565
+The sum of the numbers 1-106: 5671
+The sum of the numbers 1-107: 5778
+The sum of the numbers 1-108: 5886
+The sum of the numbers 1-109: 5995
+The sum of the numbers 1-110: 6105
+ */

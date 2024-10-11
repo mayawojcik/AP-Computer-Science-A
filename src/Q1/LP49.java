@@ -6,7 +6,7 @@ public class LP49 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number between 1 and 20: ");
         int num = input.nextInt();
-        int comnum = (int)Math.random();
+        int comnum = (int)Math.random()*20+ 1;
 
         String output = "";
         if (num == comnum)  output = "You won!";

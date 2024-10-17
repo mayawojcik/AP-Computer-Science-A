@@ -14,19 +14,19 @@ public class LP517 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the password: ");
         String password = input.nextLine();
-
         String output = "";
         if (password.equals (passwordgen(10))) output = "The password you typed is incorrect";
+
         System.out.print("Enter the password: ");
         String password1 = input.nextLine();
-
         String output1 = "";
         if (password1.equals (passwordgen(10))) output1 = "The password you typed is incorrect";
+
         System.out.print("Enter the password: ");
         String password2 = input.nextLine();
-
         String output2 = "";
         if (password2.equals (passwordgen(10))) output2 = "Access denied";
+
         System.out.println(passwordgen(10));
     }
 }

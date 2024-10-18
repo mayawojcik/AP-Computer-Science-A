@@ -18,3 +18,7 @@ public class LP43 {
 
     }
 }
+/*
+Enter number of eggs purchased: 67
+The bill is equal to $0.45 per dozen
+ */

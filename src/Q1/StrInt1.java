@@ -4,8 +4,9 @@ import java.util.Scanner;
 public class StrInt1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String str = input.nextLine();
         System.out.print("Duplicate characters; ");
+        String str = input.nextLine();
+
 
         for (int lcv = 0; lcv < str.length(); lcv++) {
             for (int lcv2 = lcv+1; lcv2 < str.length(); lcv2++) {

@@ -22,3 +22,7 @@ public class LP1 {
 
     }
 }
+/*
+Enter the number of copies to be printed: 56
+Price per copy is: 0.30
+ */

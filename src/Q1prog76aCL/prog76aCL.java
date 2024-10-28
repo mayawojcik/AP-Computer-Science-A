@@ -13,3 +13,13 @@ public class prog76aCL {
         System.out.println(thing);
     }
 }
+/*
+Enter a number you dislike:
+5
+9 x
+----
+45
+12345679 x
+----------
+555555555  Surprise!
+ */

@@ -14,3 +14,11 @@ public class Prog54bCL {
 
     }
 }
+/*
+475
+821
+369
+562
+The sum of the four numbers is 2227
+The average of the four numbers is 556.75
+ */

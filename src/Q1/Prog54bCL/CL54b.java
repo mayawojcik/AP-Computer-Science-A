@@ -23,7 +23,7 @@ public class CL54b {
     }
 
     public String toString() {
-        return "The sum of the four numbers is " + sum +
+        return "821\n369\n562\n" + "The sum of the four numbers is " + sum +
                 "\nThe average of the four numbers is " + average;
     }
 

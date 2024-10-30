@@ -17,3 +17,16 @@ public class Prog88aCL {
 
     }
 }
+/*
+Enter first number:
+5
+Enter second number:
+10
+Sum: 15
+Difference: -5
+Product: 50
+Average: 7
+Absolute Value: 5
+Maximum: 10
+Minimum: 5
+ */

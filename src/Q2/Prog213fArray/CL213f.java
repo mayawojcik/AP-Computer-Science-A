@@ -11,7 +11,7 @@ public class CL213f {
 
     // TODO: complete
     public void calc() {
-        if (myKwh <= 2000)
+        if (myKwh <= 2000);
     }
 
     public String toString() {

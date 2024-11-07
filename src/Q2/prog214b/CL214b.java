@@ -1,15 +1,15 @@
 package Q2.prog214b;
 
 public class CL214b {
-    private int employeeNum;
-    private double hours;
-    private double rate;
-    private double shiftFactor;
-    private double yearToDate;
-    private double grossPay;
-    private double withholding;
-    private double fica;
-    private double netPay;
+    private int myNum;
+    private double myhours;
+    private double myrate;
+    private double myshiftFactor;
+    private double myyearToDate;
+    private double mygrossPay;
+    private double mywithholding;
+    private double myfica;
+    private double mynetPay;
 
     public CL214b(int employeeNum) {
 

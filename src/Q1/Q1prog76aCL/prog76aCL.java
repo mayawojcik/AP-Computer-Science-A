@@ -1,4 +1,4 @@
-package Q1prog76aCL;
+package Q1.Q1prog76aCL;
 import java.util.Scanner;
 
 public class prog76aCL {

@@ -1,4 +1,4 @@
-package Q1prog76aCL;
+package Q1.Q1prog76aCL;
 
 public class CL76a {
     private int dislike;

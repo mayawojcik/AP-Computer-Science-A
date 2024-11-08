@@ -4,11 +4,11 @@ public class CL214b {
     private int myNum;
     private double myHours;
     private double myBPR;
-    private double myRate;
-    private double myShiftFactor;
+    private double myYTDRate;
+    private double myShiftCode;
 
 
-    public CL214b(int employeeNum) {
+    public CL214b(int myNum) {
 
     }
 }

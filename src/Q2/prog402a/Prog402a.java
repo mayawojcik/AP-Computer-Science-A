@@ -8,9 +8,11 @@ public class Prog402a {
     public static void main(String[] args) {
         try {
             Scanner file = new Scanner(new File("Langdat/prg402a.dat"));
-
+// 21 pairs                System.out.println("ID\t\tScore\t\tDiff");
+            int ID = 0;
+            int Score = 0;
             while (file.hasNext()) {
-                System.out.println("ID\t\tScore\t\tDiff");
+                int myID = file.nextInt();
 
 
             }

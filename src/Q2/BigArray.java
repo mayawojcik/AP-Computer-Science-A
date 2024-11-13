@@ -1,4 +1,5 @@
 package Q2;
+import java.util.*;
 
 public class BigArray {
     public static void main(String[] args) {

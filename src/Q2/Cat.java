@@ -1,10 +1,6 @@
 package Q2;
 
 public class Cat {
-    /**
-     * Cat
-     * Use with Cats with BigArrayLists
-     */
     public class Cat {
         private String myName;
         private double myWeight;
@@ -37,6 +33,6 @@ public class Cat {
         public double getCost() { return myCost; }
         public double getWeight() { return myWeight; }
         public String getName() { return myName; }
-    }
 
+    }
 }

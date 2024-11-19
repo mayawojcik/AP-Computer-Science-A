@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class BigArray2 {
-    public static void printCat(Cat cat) {
+}
+   /* public static void printCat(Cat cat) {
         System.out.printf("%s\t%f\t%d\t%$.2f\n",
                 cat.getName(), cat.getWeight(), cat.getAge(), cat.getCost());
     }
@@ -123,7 +124,7 @@ public class BigArray2 {
  * Cat
  * Use with Cats with BigArrayLists
  */
-public class Cat {
+/*public class Cat {
     private String myName;
     private double myWeight;
     private int myAge;
@@ -146,7 +147,7 @@ public class Cat {
     /**
      * Methods
      */
-    public void setWeight(double weight) { myWeight = weight; }
+    /*public void setWeight(double weight) { myWeight = weight; }
     public void setCost(double cost) { myCost = cost; }
     public void setAge(int age){ myAge = age; }
     public void setName(String name) { myName = name; }

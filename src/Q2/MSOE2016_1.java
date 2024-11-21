@@ -5,7 +5,7 @@ public class MSOE2016_1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a lowercase word!!!!!!: ");
-        String word = input.nextLine().toLowerCase().trim();
+        final String word = input.nextLine();
 
         boolean palindrome = true;
         for(int lcv = 0; lcv < word.length()/2; ++lcv)

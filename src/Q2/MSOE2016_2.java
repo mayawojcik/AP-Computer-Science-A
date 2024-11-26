@@ -10,7 +10,7 @@ public class MSOE2016_2 {
         double c = input.nextDouble();
         System.out.println("Degree of angle a? ");
         double alp = input.nextDouble();
-        double g = Math.toDegrees(Math.asin(c/a*Math.sin(Math.toRadians(alp)))); // Okay for competitors to assume asin argument <= 1
+        double g = Math.toDegrees(Math.asin(c/a*Math.sin(Math.toRadians(alp))));
         double g2 = 180-g;
         if (alp+g < 180) {
             System.out.printf("The two values for angle C: %g and %g.\n", g, g2);

@@ -1,26 +1,31 @@
 package Q2;
-import java.util.*;
+import java.util.Scanner;
 
 public class MSOE2016_1 {
-    public static void main(String[] args) {
+    public static boolean isPalindrome(String str){
+        String wrd = "";
+        boolean answer = false;
+
+        for (int i = str.length() - 1; i >= 0; i--) {
+            wrd = wrd + str.charAt(i);
+        }
+        if (str.equals(wrd)) {
+            answer = true;
+        }
+        return answer;
+    }
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a lowercase word!!!!!!: ");
-        final String word = input.nextLine();
-
-        boolean palindrome = true;
-        for(int lcv = 0; lcv < word.length()/2; ++lcv)
-            if(word.charAt(lcv) == word.charAt(word.length() - (lcv+1)));
-        System.out.printf("This is %sa palindrome!!!!\n", "");
-
-
-
-
-
+        System.out.println("Enter a lowercase word!!!!");
+        String str = input.nextLine().toLowerCase();
+        boolean word = isPalindrome(str);
+        System.out.println(word);
+            }
 
     }
-}
 /*
-Enter a lowercase word!!!!!!:
+Enter a lowercase word!!!!
 abba
-This is a palindrome!!!!
+true
  */

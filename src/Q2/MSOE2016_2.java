@@ -12,9 +12,9 @@ public class MSOE2016_2 {
          double g = Math.toDegrees(Math.asin(c/a*Math.sin(Math.toRadians(alp)))); // Okay for competitors to assume asin argument <= 1
          double g2 = 180-g;
         if (alp+g < 180) { 
-            System.out.printf("There are 2 possible values for ∠C: %g & %g.\n", g, g2);
+            System.out.printf("Two possible values for angle C: %g & %g.\n", g, g2);
         } else {
-            System.out.printf("There is 1 possible value for ∠C: %g.\n", g);
+            System.out.printf("One possible value for angle C: %g.\n", g);
         }
     }
 }

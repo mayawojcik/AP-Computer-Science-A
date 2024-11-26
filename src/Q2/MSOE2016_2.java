@@ -2,7 +2,7 @@ package Q2;
 import java.util.*;
 
 public class MSOE2016_2 {
-    public static void p2() {
+    private static void p2() {
         System.out.println("Side a? ");
         double a = input.nextDouble();
         System.out.println("Side c? ");

@@ -12,12 +12,12 @@ public class LP314 {
         int AwNj = input.nextInt();
         System.out.print  ("");
         int MaNj = input.nextInt();
-        System.out.println("New York:       ");
+        System.out.println("\nNew York:       ");
         System.out.print  ("");
         int AwNy = input.nextInt();
         System.out.print  ("");
         int MaNy = input.nextInt();
-        System.out.println("Connecticut:    ");
+        System.out.println("\nConnecticut:    ");
         System.out.print  ("");
         int AwC = input.nextInt();
         System.out.print  ("");

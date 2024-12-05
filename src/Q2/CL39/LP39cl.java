@@ -21,7 +21,8 @@ public class LP39cl {
         sleep = 0;
     }
     public void calc() {
-        alive =
+        alive = ;
+        sleep =;
     }
 
 }

@@ -40,7 +40,27 @@ Connecticut:
 213451
 231034
  */
+/*
+Election results for New York:
+Awbrey: 89008
+Martinez: 121032
 
+Election results for New Jersey:
+Awbrey: 314159
+Martinez: 271860
+
+Election results for Connecticut:
+Awbrey: 213451
+Martinez: 231034
+
+Candidate              Votes   Percentage
+Awbrey                 616618   49.71
+Martinez               623926   50.29
+TOTAL VOTES:           1240544.0
+
+Process finished with exit code 0
+
+ */
 
 
 

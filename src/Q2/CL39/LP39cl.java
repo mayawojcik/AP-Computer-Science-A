@@ -21,8 +21,13 @@ public class LP39cl {
         sleep = 0;
     }
     public void calc() {
-        alive = ;
-        sleep =;
+        alive = Math.abs((year2 - year)*365) + Math.abs((month2 - month)*30) - Math.abs((day2 - day));
+        sleep = Math.abs(alive*8);
+    }
+
+    public String toString() {
+        return "You have been alive for " + alive + " days!" + "\n"
+                + "You have slept " + sleep + " hours!";
     }
 
 }

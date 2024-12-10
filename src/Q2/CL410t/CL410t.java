@@ -9,6 +9,7 @@ public class CL410t {
         try {
             Scanner file = new Scanner(new File("survey2.dat, survey.dat"));
 
+            System.out.println("ID\tIncome\tMembers");
             while (file.hasNext()) {
 
             }

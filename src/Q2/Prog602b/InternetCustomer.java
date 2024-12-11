@@ -18,7 +18,7 @@ public class InternetCustomer {
         if (myCode == 1) surcharge = 50;
         else if (myCode == 2) surcharge = 150;
 
-        //TODO: calculate charge
+        myCharge =
 
         myCharge += surcharge;
     }

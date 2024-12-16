@@ -22,6 +22,7 @@ public class CL410t {
         } catch (IOException e) {
             System.out.println("Error: " + e);
         }
+        System.out.println("Households with income exceeding an average income of ");
     }
 }
 /*

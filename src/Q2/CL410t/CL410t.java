@@ -5,7 +5,7 @@ import java.util.*;
 public class CL410t {
     public static void main(String[] args) {
         try {
-            Scanner file = new Scanner(new File("Langdat/survey2.dat"));
+            Scanner file = new Scanner(new File("Langdat/survey2.dat, survey.dat"));
 
             System.out.println("ID\t\tIncome\t    Members");
             while (file.hasNext()) {

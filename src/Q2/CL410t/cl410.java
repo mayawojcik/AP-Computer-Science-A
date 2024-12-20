@@ -11,7 +11,7 @@ public class cl410 {
     private double myPoverty;
 
     public void calc() {
-        myPoverty = 3750.00 + 750.00 * (myMembers-2);
+        myPoverty = 3750.00 + 750.00 * ((myMembers+myMembers1)-2);
         for (int lcv = 0; lcv < nums.length; lcv++)
         if (lcv > 12707 && myIncome1 > 12707)
         myAverage = myIncome / 13.00;

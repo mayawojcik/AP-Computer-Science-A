@@ -1,7 +1,7 @@
 package Q2.ArrayList;
 
 public class IntArrayList {
-    private int[] myArray;
+   /* private int[] myArray;
     private int mySize;
     private int myCapacity;
     private final int DEFAULT_SIZE = 16;
@@ -48,5 +48,5 @@ public class IntArrayList {
     public int IndexOf(int num) {
 
     }
-
+*/
 }

@@ -2,7 +2,7 @@ package Q2.ArrayList;
 import java.util.*;
 
 public class MyArrayListLab {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         IntArrayList list = new IntArrayList();
 
         System.out.println("Testing add() and get()...");
@@ -29,4 +29,6 @@ public class MyArrayListLab {
 
         }
     }
+
+     */
 }

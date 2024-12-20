@@ -5,26 +5,29 @@ import java.util.*;
 public class CL410t {
     public static void main(String[] args) {
         try {
-            Scanner file = new Scanner(new File("Langdat/survey2.dat, survey.dat"));
+            Scanner file = new Scanner(new File("Langdat/survey2.dat"));
+            Scanner file1 = new Scanner(new File("langdat/survey.dat"));
 
             System.out.println("ID\t\tIncome\t    Members");
             while (file.hasNext()) {
                 int id = file.nextInt();
                 int in = file.nextInt();
                 int m = file.nextInt();
+                int id1 = file1.nextInt();
+                int in1 = file1.nextInt();
+                int m1 = file1.nextInt();
 
-                cl410 la = new cl410(id, in, m);
-                la.setMyMember();
+                cl410 la = new cl410(id, in, m, id1, in1, m1);
+                la.setMyMembers();
                 System.out.println(la.toString());
             }
             System.out.println("Households with income exceeding an average income of ");
 
-        } catch (IOException e) {
-            System.out.println("Error: " + e);
+            } catch(IOException e){
+                System.out.println("Error: " + e);
+            }
         }
-        System.out.println("Households with income exceeding an average income of ");
     }
-}
 /*
 ID		Income	    Members
 1041	12180		4
@@ -40,4 +43,8 @@ ID		Income	    Members
 4725	8900		3
 6217	10000		2
 9280	6200		1
+Households with income exceeding an average income of
+
+Process finished with exit code 0
+
  */

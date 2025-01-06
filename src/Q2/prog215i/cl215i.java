@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class cl215i {
     public static void main(String[] args) {
-        try {
+      /*  try {
             Scanner file = new Scanner(new File("Langdat/prog215i.dat"));
 
             System.out.println("Vehicle  Miles\tGallons  MPG");
@@ -24,6 +24,7 @@ public class cl215i {
         } catch (IOException e) {
             System.out.println("Error: " + e);
         }
+    } */
     }
 }
 /*

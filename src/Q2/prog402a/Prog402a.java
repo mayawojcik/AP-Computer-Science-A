@@ -8,11 +8,17 @@ public class Prog402a {
     public static void main(String[] args) {
         try {
             Scanner file = new Scanner(new File("Langdat/prg402a.dat"));
-// 21 pairs                System.out.println("ID\t\tScore\t\tDiff");
-            int ID = 0;
-            int Score = 0;
+              System.out.println("ID\t\tScore   \tDiff");
+
             while (file.hasNext()) {
                 int myID = file.nextInt();
+                int myScore = file.nextInt();
+
+                System.out.println(myID + "\t\t" + myScore);
+
+                Cl402a thing = new Cl402a(d, a);
+                thing.setMyAvg();
+                System.out.println(thing.toString());
 
 
             }

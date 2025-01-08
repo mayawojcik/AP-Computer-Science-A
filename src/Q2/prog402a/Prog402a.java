@@ -16,9 +16,8 @@ public class Prog402a {
 
                 System.out.println(myID + "\t\t" + myScore);
 
-                Cl402a thing = new Cl402a(d, a);
-                thing.setMyAvg();
-                System.out.println(thing.toString());
+
+
 
 
             }

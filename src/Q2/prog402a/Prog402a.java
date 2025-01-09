@@ -13,12 +13,7 @@ public class Prog402a {
             while (file.hasNext()) {
                 int myID = file.nextInt();
                 int myScore = file.nextInt();
-
                 System.out.println(myID + "\t\t" + myScore);
-
-
-
-
 
             }
 

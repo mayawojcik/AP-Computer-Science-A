@@ -7,8 +7,8 @@ public class Cl402a {
 
     public void calc() {
         for (int i = 0; i < myScore; i++) {
-            double score =+ i;
-            myAvg = score / 21.0;
+            myDiff += i;
+            myAvg = myDiff / 21.0;
         }
     }
 

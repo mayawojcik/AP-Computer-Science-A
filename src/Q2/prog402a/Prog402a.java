@@ -2,6 +2,7 @@ package Q2.prog402a;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Prog402a {
@@ -13,7 +14,10 @@ public class Prog402a {
             while (file.hasNext()) {
                 int myID = file.nextInt();
                 int myScore = file.nextInt();
+                ArrayList<Integer> list = new ArrayList<Integer>();
+                for (int i = 0; i < myScore; i++)
                 System.out.println(myID + "\t\t" + myScore);
+
 
             }
 

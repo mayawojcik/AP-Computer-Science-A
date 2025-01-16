@@ -31,7 +31,7 @@ public class Cl215h {
         myAvg = ans / 6;
     }
 
-    public void setCnt(int count) { myCount = count; }
+    public void setCount(int count) { myCount = count; }
 
     public String toString() {
         return String.format("Contestant %d\n%.1f %.1f %.1f %.1f %.1f %.1f %.1f %.1f = %.2f",

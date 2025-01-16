@@ -1,5 +1,4 @@
 package Q2;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -45,7 +44,6 @@ public class prog470c {
                 System.out.println();
             }
 
-
         } catch (IOException e) {
             System.out.println("Error: " + e);
         }
@@ -67,7 +65,4 @@ New Matrix:
 14	-7	72	29	-1	107
 19	43	28	63	87	240
 210	-29	233	107	240	761
-
-Process finished with exit code 0
-
  */

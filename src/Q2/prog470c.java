@@ -7,8 +7,7 @@ public class prog470c {
     public static void main(String[] args) {
         try {
             Scanner file = new Scanner(new File("Langdat/prog464a.dat"));
-
-            // 6 arrays of length 6
+            // 6 arrays with a length of 6
             int[][] mat = new int[6][6];
 
             for (int r = 0; r < mat.length - 1; r++) {
@@ -26,7 +25,7 @@ public class prog470c {
             }
 
             System.out.println();
-            // Find sum
+            // Find thr sum
             for (int r = 0; r < mat.length - 1; r++) {
                 for (int c = 0; c < mat[0].length - 1; c++) {
                     mat[r][5] += mat[r][c];

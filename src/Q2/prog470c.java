@@ -25,7 +25,7 @@ public class prog470c {
             }
 
             System.out.println();
-            // Find thr sum
+            // Find the sum
             for (int r = 0; r < mat.length - 1; r++) {
                 for (int c = 0; c < mat[0].length - 1; c++) {
                     mat[r][5] += mat[r][c];

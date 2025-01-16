@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Prog465b {
+public class prog465b {
     public static void main(String[] args) {
         try {
             Scanner input = new Scanner(new File("Langdat/prog465b.dat"));

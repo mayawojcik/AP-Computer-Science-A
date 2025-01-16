@@ -1,5 +1,4 @@
 package Q2;
-public class prog470a {
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;

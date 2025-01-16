@@ -23,7 +23,6 @@ public class Prog435a {
 
             Cl435a thing = new Cl435a(fact, ty, total, price, type, gate);
             thing.calc();
-
             fact = thing.getFact();
             ty = thing.getTy();
             total = thing.getTotal();

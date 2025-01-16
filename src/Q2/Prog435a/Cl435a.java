@@ -8,7 +8,6 @@ public class Cl435a {
     private int[] mytype = new int[100];
     private int[] mygate = new int[100];
 
-
     public Cl435a(String[] fact, double[] ty, double[] total, double[] price, int[] type, int[] gate) {
         myfact = fact;
         myty = ty;
@@ -41,7 +40,7 @@ public class Cl435a {
                 myty[i] = 2.7;
             }
             if (mygate[i] == 1) {
-                mprice[i] = 1.35;
+                myprice[i] = 1.35;
             } else if (mygate[i] == 2) {
                 myprice[i] = 2.00;
             } else if (mygate[i] == 3) {
@@ -84,7 +83,7 @@ public class Cl435a {
         System.out.printf("Car Type\t\tBase Toll\t\tFactor\t\tCost\n");
         for (int i = 0; i < count; i++) {
             System.out.printf("%s\t\t\t%.2f\t\t\t%.2f\t\t\t%.2f\n", myfact[i], myprice[i],
-             myty[i], mytotal[i]);
+                    myty[i], mytotal[i]);
         }
     }
 }

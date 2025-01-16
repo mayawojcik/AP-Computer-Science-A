@@ -1,4 +1,4 @@
-package Q2.Prog402a;
+package Q2.prog402a;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -23,7 +23,7 @@ public class Prog402a {
             }
             Cl402a thing = new Cl402a(id, score);
             thing.calc();
-            thing.output(cnt);
+            thing.output(count);
 
         } catch (IOException e) {
             System.out.println("Error: " + e);

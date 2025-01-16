@@ -1,4 +1,4 @@
-package Q2.Prog402a;
+package Q2.prog402a;
 
 public class Cl402a {
     private double myAvg = 0.0;

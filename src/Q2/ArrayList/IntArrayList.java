@@ -1,52 +1,79 @@
 package Q2.ArrayList;
 
-public class IntArrayList {
-   /* private int[] myArray;
-    private int mySize;
-    private int myCapacity;
-    private final int DEFAULT_SIZE = 16;
-
-    public IntArrayList() {
-        myArray = new int[DEFAULT_SIZE];
-        mySize = 0;
-        myCapacity = DEFAULT_SIZE;
+    public class IntArrayList {
+        private final int DEFAULT_SIZE = 16;
+        private int mySize;
+        private int[] myArray;
+        private int myCapacity;
+    
+        public IntArrayList() {
+            myArray = new int[DEFAULT_SIZE];
+            mySize = 0;
+            myCapacity = DEFAULT_SIZE;
+        }
+    
+        private void doubleCapacity() {
+            myCapacity = myCapacity * 2;
+            int[] temp = new int[myCapacity];
+            for (int i = 0; i < mySize; i++) {
+                temp[i] = myArray[i];
+            }
+            myArray = temp;
+        }
+    
+        private void halfCapacity() {
+            if (mySize > myCapacity / 2) {
+                System.out.println("Unable to half capacity!!");
+            } else {
+                myCapacity = myCapacity / 2;
+                int[] temp = new int[myCapacity];
+                for (int i = 0; i < mySize; i++) {
+                    temp[i] = myArray[i];
+                }
+                myArray = temp;
+            }
+        }
+    
+        public void add(int num) {
+            if (mySize + 1 == myCapacity) {
+                doubleCapacity();
+            }
+            myArray[mySize] = num;
+            mySize++;
+        }
+    
+        public void remove(int index) {
+            for (int i = index + 1; i < mySize; i++) {
+                myArray[i - 1] = myArray[i];
+            }
+            mySize--;
+            if (mySize <= (myCapacity * 0.25)) {
+                halfCapacity();
+            }
+        }
+    
+        public int get(int index) {
+            return myArray[index];
+        }
+    
+        public void set(int index, int num) {
+            myArray[index] = num;
+        }
+    
+        public int size() {
+            return mySize;
+        }
+    
+        public int[] toArray() {
+            return myArray;
+        }
+    
+        public int indexOf(int num) {
+            for (int i = 0; i < mySize; i++) {
+                if (myArray[i] == num) {
+                    return i;
+                }
+            }
+            return -1;
+        }
     }
-
-    private void doubleCapacity() {
-        myCapacity = myCapacity * 2; //myCapacity *= 2
-    }
-
-    private void halfCapacity() {
-        myCapacity /= 2;
-    }
-
-    private void add(int num) {
-        if (mySize + 1 == myCapacity);
-
-    }
-
-    public void remove(int index) {
-
-    }
-
-    public int get(int index) {
-
-    }
-
-    public void set(int index, int num) {
-
-    }
-
-    public int size() {
-
-    }
-
-    public int[] toArray() {
-
-    }
-
-    public int IndexOf(int num) {
-
-    }
-*/
-}

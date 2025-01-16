@@ -28,4 +28,9 @@ public class prog465c {
             System.out.println();
 
             System.out.print("The total of the edges is " + totalEdges);
+             } catch (IOException e) {
+            System.out.println("Error: " + e);
+        }
+    }
+}
 

@@ -1,19 +1,18 @@
 package Q2.Prog214c;
 
-public class Cl214x {
+public class Cl214c {
     private final String myType;
-    private final double myGal;
+    final double myGal;
     private final String myCW;
 
-    public Cl214c(String Type, double gal, String CW) {
+    public Cl214c(String Type, double gal, String cw) {
         myType = Type;
         myGal = gal;
-        myCW = CW;
+        myCW = cw;
     }
 
     public double gasPrice() {
         double price = 0;
-
         if (myType.equals("R")) {
             price = 1.359;
         } else if (myType.equals("P")) {
@@ -33,7 +32,7 @@ public class Cl214x {
                 return cwprice;
             }
             if (myGal > 10 && myGal <= 20) {
-                double temp = ((int) myGal - 10) / 10;
+                double temp = ((myGal - 10) / 10);
                 discount -= temp;
                 cwprice *= discount;
                 return cwprice;
@@ -49,11 +48,9 @@ public class Cl214x {
     public String getType() {
         return myType;
     }
-
     public double getGallons() {
         return myGal;
     }
-
     public String getCarWash() {
         return myCW;
     }

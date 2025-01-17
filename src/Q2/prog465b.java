@@ -16,14 +16,14 @@ public class prog465b {
                 }
             }
 
-            int cnt = 0;
+            int count = 0;
             for (int r = 0; r < mat.length; r++) {
                 for (int c = 0; c < mat[0].length; c++) {
                     if (mat[r][c] < 100) {
-                        arr[cnt] = r + 1;
-                        cnt++;
-                        arr[cnt] = c + 1;
-                        cnt++;
+                        arr[count] = r + 1;
+                        count++;
+                        arr[count] = c + 1;
+                        count++;
                     }
                 }
             }
@@ -36,12 +36,11 @@ public class prog465b {
                 System.out.println();
             }
             System.out.println();
-
-            System.out.println("Numbers Less Than 100:");
+            System.out.println("Numbers Less Than 100!!!");
             System.out.println("Row\t\tColumn");
 
-            for (int lcv = 0; lcv < cnt; lcv+=2) {
-                System.out.println(arr[lcv] + "\t\t" + arr[lcv+1]);
+            for (int lcv = 0; lcv < count; lcv += 2) {
+                System.out.println(arr[lcv] + "\t\t" + arr[lcv + 1]);
             }
 
         } catch (IOException e) {
@@ -49,3 +48,15 @@ public class prog465b {
         }
     }
 }
+/*
+Original Table
+100 195 182 225
+83  125 235 67
+129 42  100 750
+
+Numbers Less Than 100!!!
+Row		Column
+2		1
+2		4
+3		2
+ */

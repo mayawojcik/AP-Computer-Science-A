@@ -1,4 +1,4 @@
-package Q2;
+package Q3;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;

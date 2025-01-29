@@ -47,14 +47,24 @@ public class prog477a {
             System.out.println("Grade\tMale\tFemale\tTotal");
             for (int i = 0; i < mat2.length-1; i++) {
                 String str = "ABCDF";
-                System.out.printf("%s\t%d\t%d\t%d\n", str.substring(i, i + 1), mat2[i][0], mat2[i][1], mat2[i][2]);
+                System.out.printf("%s\t\t %d\t\t %d\t\t %d\n", str.substring(i, i + 1), mat2[i][0], mat2[i][1], mat2[i][2]);
             }
 
-            System.out.println("----------------------------------");
-            System.out.printf("Totals:\t%d\t%d\t%d\t%d", mat2[5][0], mat2[5][1], mat2[5][2]);
+            System.out.println("----------------------------");
+            System.out.printf("Totals:\t%d\t    %d\t    %d", mat2[5][0], mat2[5][1], mat2[5][2]);
 
         } catch (IOException e) {
             System.out.println("Error: " + e);
         }
     }
 }
+/*
+Grade	Male	Female	Total
+A		 2		 4		 6
+B		 4		 4		 8
+C		 4		 7		 11
+D		 2		 3		 5
+F		 3		 0		 3
+----------------------------
+Totals:	15	    18	    33
+ */

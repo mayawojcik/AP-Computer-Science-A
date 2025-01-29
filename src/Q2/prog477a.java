@@ -53,7 +53,7 @@ public class prog477a {
             System.out.println("----------------------------------");
             System.out.printf("Totals:\t%d\t%d\t%d\t%d", mat2[5][0], mat2[5][1], mat2[5][2]);
 
-        } catch (IOExecption e) {
+        } catch (IOException e) {
             System.out.println("Error: " + e);
         }
     }

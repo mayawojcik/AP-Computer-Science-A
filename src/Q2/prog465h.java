@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class prog465h {
-    public static voic main(String[] args) {
+    public static void main(String[] args) {
         try {
             Scanner input = new Scanner(new File("Langdat/prog465h.dat"));
             while (input.hasNext()) {
@@ -14,7 +14,7 @@ public class prog465h {
 
                 int count = 0;
                 for (int i = 0; i < mat.length; i++)
-                    for (int j = 0; j < mat[0].length; c++) {
+                    for (int j = 0; j < mat[0].length; j++) {
                         mat[i][j] = input.nextInt();
                         if (mat[i][j] != 0)
                         count++;

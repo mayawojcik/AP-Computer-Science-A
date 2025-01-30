@@ -10,14 +10,14 @@ public class prog477a {
             int[][] mat = new int[33][2];
             int[][] mat2 = new int[6][3];
 
-            while(input.hasNext()) {
+            while (input.hasNext()) {
                 for (int i = 0; i < mat.length; i++)
                     for (int j = 0; j < mat[0].length; j++)
                         mat[i][j] = input.nextInt();
             }
-            
+
             for (int i = 0; i < mat.length; i++) {
-                for (int j = 0; j < mat[0].length-1; j++) {
+                for (int j = 0; j < mat[0].length - 1; j++) {
                     if (mat[i][0] == 1) {
                         if (mat[i][1] == 1) mat2[0][0]++;
                         else if (mat[i][1] == 2) mat2[1][0]++;
@@ -35,17 +35,17 @@ public class prog477a {
             }
 
             for (int i = 0; i < mat2.length; i++)
-                for (int j = 0; j < mat2[0].length-1; j++) {
+                for (int j = 0; j < mat2[0].length - 1; j++) {
                     mat2[i][2] += mat2[i][j];
                 }
 
-            for (int i = 0; i < mat2.length-1; i++)
+            for (int i = 0; i < mat2.length - 1; i++)
                 for (int j = 0; j < mat2[0].length; j++) {
                     mat2[5][j] += mat2[i][j];
                 }
 
             System.out.println("Grade\tMale\tFemale\tTotal");
-            for (int i = 0; i < mat2.length-1; i++) {
+            for (int i = 0; i < mat2.length - 1; i++) {
                 String str = "ABCDF";
                 System.out.printf("%s\t\t %d\t\t %d\t\t %d\n", str.substring(i, i + 1), mat2[i][0], mat2[i][1], mat2[i][2]);
             }

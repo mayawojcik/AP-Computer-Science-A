@@ -49,7 +49,7 @@ public class prog465h {
                 if (count2 * 3 < row * col)
                     System.out.println("The original matrix is sparse!");
                 else if (count2 * 3 > row * col)
-                    System.out.println("The original matric is abundant!!");
+                    System.out.println("The original matrix is abundant!!");
                 else
                     System.out.println("The original matrix and the sparse matrix are both equally efficient!!");
                 System.out.println();   

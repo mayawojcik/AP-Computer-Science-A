@@ -15,12 +15,12 @@ public abstract class Animal {
 
     public abstract double value(double cornCost, double hayCost);
 
-    public String getName() {return myName;}
-    public int getWeight() {return myWeight;}
-    public int getNumCorn() {return myNumCorn;}
-    public int getNumHayBales() {return myNumHayBales;}
+    public String getName()     { return myName; }
+    public int getWeight()      { return myWeight; }
+    public int getNumCorn()     { return myNumCorn; }
+    public int getNumHayBales() { return myNumHayBales; }
 
     public double getFeedCost(double cornCost, double hayCost) {
-        return (myNumCorn * cornCost) + (myNumHayBales + hayCost);
+        return (myNumCorn * cornCost) + (myNumHayBales * hayCost);
     }
 }

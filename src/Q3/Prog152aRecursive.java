@@ -6,6 +6,6 @@ public class Prog152aRecursive {
         return n * recursion(n + 3);
     }
     public static void main(String[] args) {
-            System.out.println("The sum of the multiples of 3, from 3 to 9669 is: " + recursion(3));
+            System.out.println("The sum of the multiples of 3 from 3 to 9669 is: " + recursion(3));
     }
 }

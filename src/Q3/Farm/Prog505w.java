@@ -49,8 +49,19 @@ public class Prog505w {
                 }
             }
 
-            // TODO: report income of the day, cumulative weight of all animals,
+            // TODO: report income of the day,
+            for (int lcv = 0; lcv < animals.size(); lcv++) {
+
+                }
+            //  TODO: cumulative weight of all animals,
+            for (int lcv = 0; lcv < animals.size(); lcv++) {
+
+                }
             // TODO: if there's enough food to feed all
+            for (int lcv = 0; lcv < animals.size(); lcv++){
+
+            }
+
 
             int maxCowIndex = 0;
             double maxCowValue = 0.0;
@@ -86,3 +97,7 @@ public class Prog505w {
         }
     }
 }
+/*
+Cow Betsy makes the most money
+Horse MarkMark makes the least money
+ */

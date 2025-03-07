@@ -8,4 +8,6 @@ public class Animals implements names {
         getName = name;
         getWord = "";
     }
+    public String getName() { return myName; }
+    public String getWord() { return myWord; }
 }

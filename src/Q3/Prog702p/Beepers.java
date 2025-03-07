@@ -1,9 +1,9 @@
 package Q3.Prog702p;
 
 public class Beepers extends Animals {
-    private double myWordSize;
+    private String myWordSize;
 
-    public Beepers(String name, double size) {
+    public Beepers(String name, String size) {
         super(name);
         myWordSize = size;
     }

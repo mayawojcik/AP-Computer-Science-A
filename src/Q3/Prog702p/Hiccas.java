@@ -7,5 +7,5 @@ public class Hiccas extends Animals{
         super(name);
         myFurWorth = furWorth;
     }
-    public String getFurWorth() { return myFurWorth; }
+    public double getFurWorth() { return myFurWorth; }
 }

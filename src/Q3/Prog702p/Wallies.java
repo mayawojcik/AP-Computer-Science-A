@@ -7,5 +7,5 @@ public class Wallies extends Animals {
         super(name);
         mySteps = steps;
     }
-    public String getSteps() { return mySteps; }
+    public double getSteps() { return mySteps; }
 }

@@ -7,4 +7,5 @@ public class Beepers extends Animals {
         super(name);
         myWordSize = size;
     }
+    public String getWordSize() { return myWordSize; }
 }

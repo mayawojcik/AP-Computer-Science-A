@@ -1,6 +1,6 @@
 package Q3.Prog703s;
 
-public class Apple {
+public class Apple extends Computer {
     private String myColor;
 
     public Apple(String name, int num, double val, String color) {

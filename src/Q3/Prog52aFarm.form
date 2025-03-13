@@ -7,6 +7,7 @@
     </constraints>
     <properties>
       <background color="-10521"/>
+      <enabled value="true"/>
       <foreground color="-7701"/>
     </properties>
     <border type="none"/>
@@ -45,18 +46,6 @@
           <text value="Area:"/>
         </properties>
       </component>
-      <component id="6621c" class="javax.swing.JButton" binding="btnCalc" custom-create="true">
-        <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <background color="-2371841"/>
-          <font name="Blackadder ITC" size="22" style="0"/>
-          <foreground color="-1246977"/>
-          <hideActionText value="false"/>
-          <text value="Calculate"/>
-        </properties>
-      </component>
       <component id="999e4" class="javax.swing.JTextField" binding="txtLen">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
@@ -65,7 +54,7 @@
         </constraints>
         <properties>
           <background color="-2371841"/>
-          <foreground color="-3689985"/>
+          <foreground color="-4943873"/>
         </properties>
       </component>
       <component id="e715a" class="javax.swing.JTextField" binding="txtWid">
@@ -76,6 +65,7 @@
         </constraints>
         <properties>
           <background color="-2965249"/>
+          <foreground color="-4943873"/>
         </properties>
       </component>
       <component id="cb47f" class="javax.swing.JLabel" binding="Perimeter">
@@ -98,6 +88,17 @@
           <font name="Blackadder ITC" size="22" style="0"/>
           <foreground color="-1"/>
           <text value="Length:"/>
+        </properties>
+      </component>
+      <component id="b27e1" class="javax.swing.JButton" binding="btnCalc">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2965249"/>
+          <font name="Blackadder ITC" size="22" style="0"/>
+          <foreground color="-1311233"/>
+          <text value="Calculate"/>
         </properties>
       </component>
     </children>

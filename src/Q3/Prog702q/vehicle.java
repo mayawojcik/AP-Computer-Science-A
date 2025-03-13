@@ -1,6 +1,6 @@
 package Q3.Prog702q;
 
-public class vehicle implements names {
+public class vehicle {
     public String getName;
     public int getTire;
     public double getWorth;

@@ -10,17 +10,20 @@ public class Prog702q {
 
             while (file.hasNext()) {
                 int type = file.nextInt();
-                String name = file.nextLine();
+                String names = file.nextLine();
                 int tires = file.nextInt();
                 double value = file.nextDouble();
                 if (type == 1) {
-                    cars vroom = new cars(name, tires, value, money);
+                    cars vroom = new cars(names, tires, value, money);
+
                 }
                 if (type == 2) {
-                    trucks beep = new trucks(name, tires, value, miles);
+                    trucks beep = new trucks(names, tires, value, miles);
+
                 }
                 if (type == 3) {
-                    buses round = new buses(name, tires,value, homeD);
+                    buses round = new buses(names, tires,value, homeD);
+
                 }
                 else {
                     return;

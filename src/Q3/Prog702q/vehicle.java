@@ -1,13 +1,13 @@
 package Q3.Prog702q;
-public class vehicle {
+public class vehicle implements names{
     public String getName;
     public int getTire;
     public double getValue;
 
-    public vehicle(String names, int tires) {
+    public vehicle(String names, int tires, double value) {
         getName = names;
         getTire = tires;
-        getValue = 0;
+        getValue = value;
     }
 
     public String getName() { return getName; }

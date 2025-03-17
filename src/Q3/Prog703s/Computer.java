@@ -1,6 +1,6 @@
 package Q3.Prog703s;
 
-public class Computer {
+public class Computer implements comps {
     private String getName;
     private int getNumber;
     private double getValue;

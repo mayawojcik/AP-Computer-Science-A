@@ -24,7 +24,7 @@ public class Prog702q {
 
                 }
                 if (type == 3) {
-                    buses round = new buses(names, tires,value, homeD);
+                    buses round = new buses(names, tires, value, homeD);
 
                 }
                 else {

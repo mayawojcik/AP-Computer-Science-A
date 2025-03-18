@@ -14,7 +14,7 @@ public class Prog702q {
                 int type = file.nextInt();
                 String names = file.nextLine();
                 int tires = file.nextInt();
-                double value = file.nextDouble();
+                double value = 0.0;
                 if (type == 1) {
                     cars vroom = new cars(names, tires, value, money);
 

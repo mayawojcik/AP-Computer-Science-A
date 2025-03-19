@@ -13,26 +13,38 @@ public class Prog702q {
             while (file.hasNext()) {
                 int type = file.nextInt();
                 String names = file.nextLine();
-                int tires = file.nextInt();
+                int cTires = file.nextInt();
+                int tTires = file.nextInt();
+                int bTires = file.nextInt();
                 double value = 0.0;
+
                 if (type == 1) {
-                    cars vroom = new cars(names, tires, value, money);
+                    cars vroom = new cars(names, cTires, value, money);
 
 
                 }
                 if (type == 2) {
-                    trucks beep = new trucks(names, tires, value, miles);
+                    trucks beep = new trucks(names, tTires, value, miles);
                     value = 50000 - (miles * 0.25);
 
                 }
                 if (type == 3) {
-                    buses round = new buses(names, tires, value, homeD);
+                    buses round = new buses(names, bTires, value, homeD);
                     value = 50000;
 
                 }
                 else {
                     return;
                 }
+
+                System.out.println("Total number of vehicles are: ");
+                System.out.println("Total worth of cars: ");
+                System.out.println("Total worth of vehicles: ");
+                System.out.println("Longest home destination name: ");
+                System.out.println("Truck with the least value: ");
+                System.out.println("Number of car tires: ");
+                System.out.println("Number of truck tires: ");
+                System.out.println("Number of bus tires: ");
 
             }
 

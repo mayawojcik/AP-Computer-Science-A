@@ -11,6 +11,6 @@ public class vehicle {
     }
 
     public String getName() { return getName; }
-    public int getTires() { return getTire; }
+    public int getTire() { return getTire; }
     public double getWorth() { return getValue; }
 }

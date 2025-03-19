@@ -18,13 +18,16 @@ public class Prog702q {
                 if (type == 1) {
                     cars vroom = new cars(names, tires, value, money);
 
+
                 }
                 if (type == 2) {
                     trucks beep = new trucks(names, tires, value, miles);
+                    value = 50000 - (miles * 0.25);
 
                 }
                 if (type == 3) {
                     buses round = new buses(names, tires, value, homeD);
+                    value = 50000;
 
                 }
                 else {

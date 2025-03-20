@@ -2,8 +2,7 @@ package Q3.Prog703s;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Prog703s {
     public static void main(String[] args) {

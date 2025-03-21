@@ -1,11 +1,11 @@
 package Q3.Prog702q;
 
 public class buses extends vehicle {
-    private String getHomeDestination;
+    final private String myHomeDestination;
 
     public buses(String names, int tires, String homeD, double value) {
         super(names, tires, value);
-        getHomeDestination = homeD;
+        myHomeDestination = homeD;
     }
-    public String getHomeDestination() { return getHomeDestination; }
+    public String getHomeDestination() { return myHomeDestination; }
 }

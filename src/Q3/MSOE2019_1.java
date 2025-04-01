@@ -10,7 +10,7 @@ public class MSOE2019_1 {
         System.out.println("Enter a line of text: ");
         String line = input.nextLine();
         for (int o = 0; o < line.length(); o++) {
-
+            if (line.substring())
         }
 
     }

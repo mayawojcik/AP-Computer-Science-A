@@ -16,7 +16,22 @@ public class MSOE2022_5 {
             buckets++;
             grams -= 100;
         }
-        System.out.println("Sally needs" + buckets + "buckets");
+        System.out.println("Sally needs " + buckets + " bucket(s)");
 
     }
 }
+/*
+How many shells would you like?
+5
+How many grams??
+77
+How many grams??
+656
+How many grams??
+3
+How many grams??
+1
+How many grams??
+5
+Sally needs 8 bucket(s)
+ */

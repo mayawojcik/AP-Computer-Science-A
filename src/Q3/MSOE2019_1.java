@@ -1,8 +1,8 @@
 package Q3;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class MSOE2019_1 {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         int count = 0;
         Scanner input = new Scanner(System.in);
         System.out.println("Enter two letters:" );
@@ -13,5 +13,5 @@ public class MSOE2019_1 {
             if (line.substring())
         }
 
-    }
+    } */
 }

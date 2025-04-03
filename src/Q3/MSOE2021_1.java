@@ -7,7 +7,7 @@ public class MSOE2021_1 {
         int count = 0;
         System.out.println("GIVE ME A LETTER!!!");
         String letter = sydney.nextLine();
-        System.out.println("NOW GIVE ME A SENTENCE!!!");
+        System.out.println("NOW GIVE ME A SENTENCE GRRRRRR!!!");
         String sentence = sydney.nextLine();
 
 

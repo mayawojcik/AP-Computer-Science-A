@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Prog901a {
     public static void main(String[] args) {
         try {
-            Scanner file = new Scanner(new File("Langdat/prog512h.dat"));
+            Scanner sydney = new Scanner(new File("Langdat/prog512h.dat"));
 
-            while (file.hasNext()) {
+            while (sydney.hasNext()) {
 
             }
 

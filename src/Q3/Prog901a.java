@@ -24,7 +24,7 @@ public class Prog901a {
             printFile(sydney);
 
         } catch (IOException e) {
-            System.out.println("Can't find data file!");
+            System.out.println("Error: " + e);
         }
     }
 }

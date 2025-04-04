@@ -9,19 +9,26 @@ public class MSOE2021_1 {
         String letter = sydney.nextLine();
         System.out.println("NOW GIVE ME A SENTENCE GRRRRRR!!!");
         String sentence = sydney.nextLine();
-        for (int i = 0; i < sentence.length()-1; i++) {
-            if (sentence.substring(i, i+1).equals(" ")) {
-                if (sentence.substring(i-1, i).equals(letter)) {
-                    for (int j = i-1; j > 0; j--) {
-                        if (sentence.substring(j, j + 1).equals(" ")) {
-                            System.out.println("The word is: " + sentence.substring(j + 1, i));
+        for (int o = 0; o < sentence.length()-1; o++) {
+            if (sentence.substring(o, o+1).equals(" ")) {
+                if (sentence.substring(o-1, o).equals(letter)) {
+                    for (int p = o-1; p > 0; p--) {
+                        if (sentence.substring(p, p + 1).equals(" ")) {
+                            System.out.println("WORD IS " + sentence.substring(p + 1, o));
                             return;
                         }
                     }
                 }
             }
         }
-        System.out.println("There isn't a word ending in " + letter + "!");
+        System.out.println("THERE IS NOT A WORD ENDING WITH " + letter + "!");
     }
 
 }
+/*
+GIVE ME A LETTER!!!
+y
+NOW GIVE ME A SENTENCE GRRRRRR!!!
+Sydney is super funny and cute!
+WORD IS funny
+ */

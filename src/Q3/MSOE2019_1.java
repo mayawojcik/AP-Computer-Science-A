@@ -9,14 +9,22 @@ public class MSOE2019_1 {
         String letters = sydney.nextLine();
         System.out.println("Enter a line of text: ");
         String line = sydney.nextLine();
-        for (int i = 0; i < text.length(); i++) {
-            if (text.substring(i, i+1).equals(tl.substring(0, 1))) {
-                if (line.substring(i+1, i+2).equals(letters.substring(1)) || line.substring(i-1, i).equals(letters.substring(1))) {
+        for (int y = 0; y < letters.length(); y++) {
+            if (letters.substring(y, y+1).equals(line.substring(0, 1))) {
+                if (line.substring(y+1, y+2).equals(letters.substring(1)) || line.substring(y-1, y).equals(letters.substring(1))) {
                     count++;
                 }
             }
         }
         System.out.println();
-        System.out.println("The number of times these letters are seen together is " + count + "!");
+        System.out.println("THESE LETTERS ARE SEEN " + count + " TIMES!");
     }
 }
+/*
+Enter two letters:
+ ei
+Enter a line of text:
+can marlon jump?
+
+THESE LETTERS ARE SEEN 0 TIMES!
+ */

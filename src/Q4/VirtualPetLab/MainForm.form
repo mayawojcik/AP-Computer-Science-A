@@ -10,54 +10,54 @@
     </properties>
     <border type="none"/>
     <children>
-      <component id="41021" class="javax.swing.JButton" binding="button4" default-binding="true">
+      <component id="41021" class="javax.swing.JButton" binding="playButton" default-binding="true">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Play"/>
         </properties>
       </component>
-      <component id="8c7ae" class="javax.swing.JButton" binding="button5" default-binding="true">
+      <component id="8c7ae" class="javax.swing.JButton" binding="feedButton" default-binding="true">
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Feed"/>
         </properties>
       </component>
-      <component id="e09dd" class="javax.swing.JButton" binding="button3" default-binding="true">
+      <component id="e09dd" class="javax.swing.JButton" binding="adoptADogButton" default-binding="true">
         <constraints>
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Adopt a Dog"/>
         </properties>
       </component>
-      <component id="6a7b6" class="javax.swing.JButton" binding="button2" default-binding="true">
+      <component id="6a7b6" class="javax.swing.JButton" binding="adoptAFoxButton" default-binding="true">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Adopt a Fox"/>
         </properties>
       </component>
-      <component id="c6b58" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="c6b58" class="javax.swing.JButton" binding="adoptACatButton" default-binding="true">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Adopt a Cat"/>
         </properties>
       </component>
-      <component id="84c1f" class="javax.swing.JButton" binding="button6" default-binding="true">
+      <component id="84c1f" class="javax.swing.JButton" binding="sleepButton" default-binding="true">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="78" height="99"/>
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Sleep"/>
         </properties>
       </component>
     </children>

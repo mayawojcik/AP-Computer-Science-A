@@ -17,12 +17,9 @@ public class MainForm extends JFrame {
     // TODO: add adoption buttons
     // Pet list
     private PetManager PetManager = new PetManager();
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
-    private JButton button5;
-    private JButton button6;
+    private JButton adoptACatButton;
+    private JButton adoptAFoxButton;
+    private JButton adoptADogButton;
 
     public MainForm() {
         super("Virtual Pet Simulator");

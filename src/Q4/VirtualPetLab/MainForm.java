@@ -20,6 +20,8 @@ public class MainForm extends JFrame {
     private JButton adoptAFoxButton;
     private JButton adoptADogButton;
     private JComboBox comboBox1;
+    private JLabel statsLabel;
+    private JLabel pictureLabel;
     private JButton adoptCatButton;
     private JButton adoptDogButton;
 

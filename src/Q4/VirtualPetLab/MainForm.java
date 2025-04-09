@@ -1,5 +1,4 @@
 package Q4.VirtualPetLab;
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.Base64;
@@ -20,6 +19,9 @@ public class MainForm extends JFrame {
     private JButton adoptACatButton;
     private JButton adoptAFoxButton;
     private JButton adoptADogButton;
+    private JComboBox comboBox1;
+    private JButton adoptCatButton;
+    private JButton adoptDogButton;
 
     public MainForm() {
         super("Virtual Pet Simulator");
@@ -76,6 +78,26 @@ public class MainForm extends JFrame {
         });
 
         // TODO: Implement adoption button actions
+        adoptAFoxButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO: Implement feeding the selected pet
+            }
+        });
+
+        adoptACatButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO: Implement feeding the selected pet
+            }
+        });
+
+        adoptADogButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO: Implement feeding the selected pet
+            }
+        });
     }
 
     public void updateStatusLabel(String status) {
@@ -131,5 +153,9 @@ public class MainForm extends JFrame {
                 new MainForm().setVisible(true);
             }
         });
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }

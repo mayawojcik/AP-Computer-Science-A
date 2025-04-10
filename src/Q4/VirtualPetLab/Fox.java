@@ -8,16 +8,16 @@ public class Fox extends Pet {
 
     @Override
     public void feed() {
-        // TODO: Implement feeding behavior for Cat
+        // TODO: Implement feeding behavior for Fox
     }
 
     @Override
     public void play() {
-        // TODO: Implement playing behavior for Cat
+        // TODO: Implement playing behavior for Fox
     }
 
     @Override
     public void sleep() {
-        // TODO: Implement sleeping behavior for Cat
+        // TODO: Implement sleeping behavior for Fox
     }
 }

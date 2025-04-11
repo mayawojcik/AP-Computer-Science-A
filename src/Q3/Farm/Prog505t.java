@@ -8,8 +8,7 @@ import java.util.Scanner;
 public class Prog505t {
     public static void main(String[] args) {
         try {
-            Scanner sydney = new Scanner(new File("Langdat/prog505t.dat"));
-            List<Animal> animals = new ArrayList<>();
+            Scanner sydney = new Scanner(new File("Langdat/FILENAME"));
 
             while (sydney.hasNext()) {
 
@@ -20,4 +19,3 @@ public class Prog505t {
         }
     }
 }
-//Rest in peace farm

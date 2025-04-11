@@ -15,7 +15,6 @@ public class Prog505w {
             double hayCost = file.nextDouble();
             int corn = file.nextInt();
             double cornCost = file.nextDouble();
-
             int cowRows = file.nextInt();
             int cowPens = file.nextInt();
             for (int r = 0; r < cowRows; r++) {

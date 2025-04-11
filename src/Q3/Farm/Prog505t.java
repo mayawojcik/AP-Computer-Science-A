@@ -13,6 +13,10 @@ public class Prog505t {
 
             while (sydney.hasNext()) {
                 //income of the day
+                double hayCost = sydney.nextDouble();
+                double cobCost = sydney.nextDouble();
+                double milkCost = 0.0;
+                double rideCost = 0.0;
 
                 //cost of feeding
 

@@ -8,16 +8,40 @@ public class Dog extends Pet {
 
     @Override
     public void feed() {
-        // TODO: Implement feeding behavior for Dog
+        Pet.setEnergy(getEnergy() + 10);
+        if (Pet.getEnergy() > 100)
+            Pet.getEnergy(100);
+        Pet.setHappiness(getHappieness() + 10);
+        if (Pet.getEnergy() > 100)
+            Pet.getEnergy(100);
+        Pet.setHunger(getHunger() - 10);
+        if (Pet.getEnergy() < 0)
+            Pet.getEnergy(0);
     }
 
     @Override
     public void play() {
-        // TODO: Implement playing behavior for Dog
+        Pet.setHappiness(getHappiness() + 10);
+        if (Pet.getHappiness() > 100)
+            Pet.getHappiness(100);
+        Pet.setEnergy(getEnergy() - 10);
+        if (Pet.getEnergy() < 0)
+            Pet.getEnergy(0);
+        Pet.setHunger(getHunger() + 10);
+        if (Pet.getHunger() > 100)
+            Pet.getHunger(100);
     }
 
     @Override
     public void sleep() {
-        // TODO: Implement sleeping behavior for Dog
+        Pet.setEnergy(getEnergy() + 18);
+        if (Pet.getEnergy() > 100)
+            Pet.getEnergy(100);
+        Pet.setHunger(getHunger() - 2);
+        if (Pet.getHunger() < 0)
+            Pet.getHunger(0);
+        Pet.setHappiness(getHappiness() + 10);
+        if (Pet.getHappiness() > 100)
+            Pet.getHappiness(100);
     }
 }

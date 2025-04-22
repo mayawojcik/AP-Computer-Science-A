@@ -8,58 +8,58 @@ public class Cat extends Pet {
 
     @Override
     public void feed() {
-        Pet.setEnergy(getEnergy() + 10);
-        if (Pet.getEnergy() > 100)
-            Pet.getEnergy(100);
-        if (Pet.getEnergy() < 0)
-            Pet.getEnergy(0);
-        Pet.setHappiness(getHappieness() + 10);
-        if (Pet.getHappiness() > 100)
-            Pet.getHappiness(100);
-        if (Pet.getHappiness() < 0)
-            Pet.getHappiness(0);
-        Pet.setHunger(getHunger() - 10);
-        if (Pet.getHunger() < 0)
-            Pet.getHunger(0);
-        if (Pet.getHunger() > 100)
-            Pet.getHunger(100);
+        super.setEnergy(getEnergy() + 10);
+        if (super.getEnergy() > 100)
+            super.setEnergy(100);
+        if (super.getEnergy() < 0)
+            super.setEnergy(0);
+        super.setHappiness(getHappieness() + 10);
+        if (super.getHappiness() > 100)
+            super.setHappiness(100);
+        if (super.getHappiness() < 0)
+            super.setHappiness(0);
+        super.setHunger(getHunger() - 10);
+        if (super.getHunger() < 0)
+            super.setHunger(0);
+        if (super.getHunger() > 100)
+            super.setHunger(100);
     }
 
     @Override
     public void play() {
-        Pet.setHappiness(getHappiness() + 15);
-        if (Pet.getHappiness() > 100)
-            Pet.setHappiness(100);
-        if (Pet.getHappiness() < 0)
-            Pet.setHappiness(0);
-        Pet.setEnergy(getEnergy() + 15);
-        if (Pet.getEnergy() < 0)
-            Pet.setEnergy(0);
-        if (Pet.getEnergy() > 100)
-            Pet.setEnergy(100);
-        Pet.setHunger(getHunger() + 12);
-        if (Pet.getHunger() > 100)
-            Pet.setHunger(100);
-        if (Pet.getHunger() < 0)
-            Pet.setHunger(0);
+        super.setHappiness(getHappiness() + 15);
+        if (super.getHappiness() > 100)
+            super.setHappiness(100);
+        if (super.getHappiness() < 0)
+            super.setHappiness(0);
+        super.setEnergy(getEnergy() + 15);
+        if (super.getEnergy() < 0)
+            super.setEnergy(0);
+        if (super.getEnergy() > 100)
+            super.setEnergy(100);
+        super.setHunger(getHunger() + 12);
+        if (super.getHunger() > 100)
+            super.setHunger(100);
+        if (super.getHunger() < 0)
+            super.setHunger(0);
     }
 
     @Override
     public void sleep() {
-        Pet.setEnergy(getEnergy() + 10);
-        if (Pet.getEnergy() > 100)
-            Pet.setEnergy(100);
-        if (Pet.getEnergy() < 0)
-            Pet.setEnergy(0);
-        Pet.setHunger(getHunger() + 12);
-        if (Pet.getHunger() < 0)
-            Pet.setHunger(0);
-        if (Pet.getHunger() > 100)
-            Pet.setHunger(100);
-        Pet.setHappiness(getHappiness() + 10);
-        if (Pet.getHappiness() > 100)
-            Pet.setHappiness(100);
-        if (Pet.getHappiness() < 0)
-            Pet.setHappiness(0);
+        super.setEnergy(getEnergy() + 10);
+        if (super.getEnergy() > 100)
+            super.setEnergy(100);
+        if (super.getEnergy() < 0)
+            super.setEnergy(0);
+        super.setHunger(getHunger() + 12);
+        if (super.getHunger() < 0)
+            super.setHunger(0);
+        if (super.getHunger() > 100)
+            super.setHunger(100);
+        super.setHappiness(getHappiness() + 10);
+        if (super.getHappiness() > 100)
+            super.setHappiness(100);
+        if (super.getHappiness() < 0)
+            super.setHappiness(0);
     }
 }

@@ -83,6 +83,7 @@ public class MainForm extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String name = JOptionPane.showInputDialog("Enter new pet name: ");
                 Fox sydney = new Fox(name);
+                // awwww cute fox!!
             }
         });
 

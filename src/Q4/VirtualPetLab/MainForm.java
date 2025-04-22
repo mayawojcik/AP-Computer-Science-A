@@ -13,7 +13,7 @@ public class MainForm extends JFrame {
     private JLabel statusLabel;
     private JLabel imageLabel;
     private JComboBox<String> petSelectorComboBox;
-    // TODO: add adoption buttons
+
     // Pet list
     private PetManager PetManager = new PetManager();
     private JButton adoptACatButton;
@@ -78,25 +78,28 @@ public class MainForm extends JFrame {
             }
         });
 
-        // TODO: Implement adoption button actions
         adoptAFoxButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: Implement feeding the selected pet
+                String name = JOptionPane.showInputDialog("Enter new pet name: ");
+                Fox sydney = new Fox(name);
             }
         });
 
         adoptACatButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: Implement feeding the selected pet
+                String name = JOptionPane.showInputDialog("Enter new pet name: ");
+                Cat maya = new Cat(name);
             }
         });
 
         adoptADogButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: Implement feeding the selected pet
+                String name = JOptionPane.showInputDialog("Enter new pet name: ");
+                Dog marlon = new Dog(name);
+                //ewww stinky dog
             }
         });
     }

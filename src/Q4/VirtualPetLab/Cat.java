@@ -13,7 +13,7 @@ public class Cat extends Pet {
             super.setEnergy(100);
         if (super.getEnergy() < 0)
             super.setEnergy(0);
-        super.setHappiness(getHappieness() + 10);
+        super.setHappiness(getHappiness() + 10);
         if (super.getHappiness() > 100)
             super.setHappiness(100);
         if (super.getHappiness() < 0)

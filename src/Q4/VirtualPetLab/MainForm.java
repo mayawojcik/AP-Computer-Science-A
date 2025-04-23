@@ -69,12 +69,15 @@ public class MainForm extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Make sure the action event isn't triggered by the removeAllItems() call
-                if (petSelectorComboBox.getSelectedIndex() == -1) return;
+                if (petSelectorComboBox.getSelectedIndex() == -1)
+                    return;
 
                 // TODO: Implement pet selection change
                 // 1. Grab the current pet from the petManager using petSelectorComboBox.getSelectedIndex()
+
                 // 2. Update statusLabel with the selected pet's status
                 // 3. Update imageLabel with the selected pet's image using setPetImage()
+
             }
         });
 
@@ -114,6 +117,9 @@ public class MainForm extends JFrame {
         // TODO: Update petSelectorComboBox with pet names from petManager
         // After adding the pet, set the selected index to the last item (petManager.getPets().size() - 1)
     }
+
+
+
 
     /* ========== DO NOT MODIFY BELOW ========== */
     public void waitButtons(int seconds) {

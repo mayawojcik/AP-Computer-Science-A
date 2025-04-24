@@ -74,7 +74,7 @@ public class MainForm extends JFrame {
 
                 // TODO: Implement pet selection change
                 // 1. Grab the current pet from the petManager using petSelectorComboBox.getSelectedIndex()
-
+                Pet szelogowski = new Pet(petSelectorComboBox.getSelectedIndex(pets));
                 // 2. Update statusLabel with the selected pet's status
                 // 3. Update imageLabel with the selected pet's image using setPetImage()
 

@@ -6,7 +6,7 @@
       <xy x="56" y="51" width="742" height="400"/>
     </constraints>
     <properties>
-      <background color="-2371841"/>
+      <background color="-5061121"/>
     </properties>
     <border type="none"/>
     <children>
@@ -15,6 +15,7 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8739841"/>
           <text value="Play"/>
         </properties>
       </component>
@@ -23,6 +24,7 @@
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8739841"/>
           <text value="Feed"/>
         </properties>
       </component>
@@ -31,6 +33,7 @@
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8739841"/>
           <text value="Adopt a Dog"/>
         </properties>
       </component>
@@ -39,6 +42,7 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8739841"/>
           <text value="Adopt a Fox"/>
         </properties>
       </component>
@@ -47,6 +51,7 @@
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8739841"/>
           <text value="Adopt a Cat"/>
         </properties>
       </component>
@@ -55,6 +60,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8739841"/>
           <text value="Sleep"/>
         </properties>
       </component>
@@ -63,6 +69,7 @@
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8739841"/>
           <model/>
         </properties>
       </component>

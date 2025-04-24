@@ -11,5 +11,7 @@ public class PetManager {
     public void removePet(Pet pet) {
         pets.remove(pet);
     }
-    public String statusUpdate
+    public String statusUpdate(Pet pet) {
+        pets.get(Pet);
+    }
 }

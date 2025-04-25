@@ -23,11 +23,11 @@ public class Prog505t {
             myNumCorn = sydney.nextInt();
             myCornCost = sydney.nextDouble();
             int amt = sydney.nextInt();
-            for (int lcv = 0; lcv < amt; lcv++) {
+            for (int k = 0; k < amt; k++) {
                 myCows.add(new Cow(sydney.nextInt(), sydney.nextInt(), sydney.nextInt(), sydney.nextInt()));
             }
             amt = sydney.nextInt();
-            for (int lcv = 0; lcv < amt; lcv++) {
+            for (int u = 0; u < amt; u++) {
                 myHorses.add(new Horse(sydney.nextInt(), sydney.nextInt(), sydney.nextInt(), sydney.nextInt(), sydney.nextDouble()));
             }
             Farm myFarm = new Farm(myHorses, myCows, myNumHayBales, myNumCorn, myHayCost, myCornCost);
@@ -35,30 +35,30 @@ public class Prog505t {
             System.out.println(myFarm.getCost());
             System.out.println(myFarm.getWeight());
             if (myFarm.feedAllAnimals() == true) {
-                System.out.println("Enough food to feed all animals");
-                System.out.println("Hay: " + myFarm.getHayBales() + " Corn: " + myFarm.getCorn());
+                System.out.println("There is enough food to feed all animals!");
+                System.out.println("Hay: " + myFarm.getHayBales() + "    Corn: " + myFarm.getCorn());
             } else {
-                System.out.println("Not enough food to feed all animals, requesting shipment");
+                System.out.println("There is not enough food to feed all animals! Shipment is required!!");
             }
-            for (int lcv = 0; lcv < 3; lcv++) {
+            for (int m = 0; m < 3; m++) {
                 int lowestMilk = Integer.MAX_VALUE;
                 int lowestCowIndex = 0;
-                for (int lcv2 = 0; lcv2 < myFarm.getCows().size(); lcv2++) {
-                    if (myFarm.getCows().get(lcv2).getMilk() < lowestMilk) {
-                        lowestMilk = myFarm.getCows().get(lcv2).getMilk();
-                        lowestCowIndex = lcv2;
+                for (int o = 0; o < myFarm.getCows().size(); o++) {
+                    if (myFarm.getCows().get(o).getMilk() < lowestMilk) {
+                        lowestMilk = myFarm.getCows().get(o).getMilk();
+                        lowestCowIndex = o;
                     }
                 }
                 myFarm.removeCow(lowestCowIndex);
                 System.out.println("The cow is removed at index " + lowestCowIndex + "!");
             }
-            for (int lcv = 0; lcv < 2; lcv++) {
+            for (int z = 0; z < 2; z++) {
                 double lowestIncome = Integer.MAX_VALUE;
                 int lowestHorseIndex = 0;
-                for (int lcv2 = 0; lcv2 < myFarm.getHorses().size(); lcv2++) {
-                    if (myFarm.getHorses().get(lcv2).getRideCost() < lowestIncome) {
-                        lowestIncome = myFarm.getHorses().get(lcv2).getRideCost();
-                        lowestHorseIndex = lcv2;
+                for (int x = 0; x < myFarm.getHorses().size(); x++) {
+                    if (myFarm.getHorses().get(x).getRideCost() < lowestIncome) {
+                        lowestIncome = myFarm.getHorses().get(x).getRideCost();
+                        lowestHorseIndex = x;
                     }
                 }
                 myFarm.removeHorse(lowestHorseIndex);

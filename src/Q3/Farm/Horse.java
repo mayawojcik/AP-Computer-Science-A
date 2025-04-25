@@ -1,21 +1,35 @@
 package Q3.Farm;
 
-public class Horse extends Animal {
-    private int myNumRides;
+public class Horse {
+    private int myWeight;
+    private int myHayBales;
+    private int myCorn;
+    private int myRides;
     private double myRideCost;
 
-    public Horse(String name, int weight, int corn, int hay, int rides, double cost) {
-        super(name, weight, corn, hay);
-        myNumRides = rides;
-        myRideCost = cost;
+    public Horse(int weight, int corn, int hay, int rides, double rideCost) {
+        myWeight = weight;
+        myCorn = corn;
+        myHayBales = hay;
+        myRides = rides;
+        myRideCost = rideCost;
     }
 
     public double value(double cornCost, double hayCost) {
         return myNumRides * myRideCost - getFeedCost(cornCost, hayCost);
     }
-
-    @Override
-    public String getName()     { return super.getName() + super.getName(); }
-    public int getRides()       { return myNumRides; }
-    public double getRideCost() { return myRideCost; }
+    
+public void setHorse(int weight, int corn, int hay, int rides, double rideCost) {
+        myWeight = weight;
+        myCorn = corn;
+        myHayBales = hay;
+        myRides = rides;
+        myRideCost = rideCost;
+    }
+    
+    public int getWeight() {return myWeight;}
+    public int getHayBales() {return myHayBales;}
+    public int getCorn() {return myCorn;}
+    public int getRides() {return myRides;}
+    public double getRideCost() {return myRideCost;}
 }

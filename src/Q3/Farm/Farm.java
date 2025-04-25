@@ -10,12 +10,12 @@ public class Farm implements IFarm {
     private double myCornCost;
 
     public Farm(ArrayList<Horse> Horses, ArrayList<Cow> Cows, int numHayBales, int numCorn, double hayCost, double cornCost) {
-        myHorses = Horses;
-        myCows = Cows;
-        myNumHayBales = numHayBales;
-        myNumCorn = numCorn;
-        myHayCost = hayCost;
-        myCornCost = cornCost;
+    myHorses = Horses;
+    myCows = Cows;
+    myNumHayBales = numHayBales;
+    myNumCorn = numCorn;
+    myHayCost = hayCost;
+    myCornCost = cornCost;
     }
 
     private boolean feedCows() {

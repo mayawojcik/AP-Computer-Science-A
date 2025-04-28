@@ -1,7 +1,7 @@
 package Q3.Farm;
 
 public class Horse {
-    private int myWeight;
+    /*private int myWeight;
     private int myHayBales;
     private int myCorn;
     private int myRides;
@@ -31,5 +31,5 @@ public class Horse {
     public int getHayBales() {return myHayBales;}
     public int getCorn() {return myCorn;}
     public int getRides() {return myRides;}
-    public double getRideCost() {return myRideCost;}
+    public double getRideCost() {return myRideCost;}*/
 }

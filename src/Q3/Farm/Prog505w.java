@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Prog505w {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         try {
             Scanner file = new Scanner(new File("Langdat/prog505w.dat"));
             List<Animal> animals = new ArrayList<>();
@@ -94,7 +94,7 @@ public class Prog505w {
         } catch (IOException e) {
             System.out.println("Error: " + e);
         }
-    }
+    }*/
 }
 /*
 Cow Betsy makes the most money

@@ -15,7 +15,7 @@ public class MainForm extends JFrame {
     private JComboBox<String> petSelectorComboBox;
 
     // Pet list
-    private PetManager PetManager = new PetManager();
+    final private PetManager PetManager = new PetManager();
     private JButton adoptACatButton;
     private JButton adoptAFoxButton;
     private JButton adoptADogButton;
@@ -100,7 +100,7 @@ public class MainForm extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String sydney = JOptionPane.showInputDialog("Enter new pet name: ");
-                 if (!(sydney.trim().isEmpty()) && sydney != null) {
+                 if (!sydney.trim().isEmpty()) {
                      PetManager.addPet(new Fox(sydney));
                     updatePetList();
                     updateStatusLabel();
@@ -113,7 +113,7 @@ public class MainForm extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String maya = JOptionPane.showInputDialog("Enter new pet name: ");
-                 if (!(maya.trim().isEmpty()) && maya != null) {
+                 if (!maya.trim().isEmpty()) {
                      PetManager.addPet(new Cat(maya));
                     updatePetList();
                     updateStatusLabel();
@@ -125,7 +125,7 @@ public class MainForm extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String marlon = JOptionPane.showInputDialog("Enter new pet name: ");
-                 if (!(marlon.trim().isEmpty()) && marlon != null) {
+                 if (!marlon.trim().isEmpty()) {
                      PetManager.addPet(new Dog(marlon));
                     updatePetList();
                     updateStatusLabel();
@@ -135,7 +135,7 @@ public class MainForm extends JFrame {
         });
     }
 
-    public void updateStatusLabel(String status) {
+    public void updateStatusLabel() {
         // TODO: Update statusLabel with the provided status
         Pet szelogowski = PetManager.getSelectedPet(petSelectorComboBox.getSelectedIndex());
         statusLabel.setText("Hunger: " + szelogowski.getHunger() + ", Energy: " + szelogowski.getEnergy() +", Happiness: " + szelogowski.getHappiness());

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Prog505t {
-    private static ArrayList<Horse> myHorses;
+   /* private static ArrayList<Horse> myHorses;
     private static ArrayList<Cow> myCows;
     private static int myNumHayBales;
     private static int myNumCorn;
@@ -73,5 +73,5 @@ public class Prog505t {
         } catch (IOException e) {
             System.out.println("Error: " + e);
         }
-    }
+    }*/
 }

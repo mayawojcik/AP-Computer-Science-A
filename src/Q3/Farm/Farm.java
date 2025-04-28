@@ -1,8 +1,8 @@
 package Q3.Farm;
 import java.util.ArrayList;
 
-public class Farm implements IFarm {
-    private ArrayList<Horse> myHorses;
+public class Farm {
+  /*  private ArrayList<Horse> myHorses;
     private ArrayList<Cow> myCows;
     private int myNumHayBales;
     private int myNumCorn;
@@ -122,5 +122,5 @@ public class Farm implements IFarm {
         return myNumCorn;
     }
     public void removeCow(int index) {myCows.remove(index);}
-    public void removeHorse(int index) {myHorses.remove(index);}
+    public void removeHorse(int index) {myHorses.remove(index);}*/
 }

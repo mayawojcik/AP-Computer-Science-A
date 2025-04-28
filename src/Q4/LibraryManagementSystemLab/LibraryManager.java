@@ -5,9 +5,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class LibraryManager {
-    /* ========== DO NOT MODIFY (Except data file path) ========== */
+    /* ========== DO NOT MODIFY (Except data file path) ==========
     public static ArrayList<Book> loadCatalog() {
-        try {
+
+       /* try {
             // Dataset source: https://www.kaggle.com/datasets/saurabhbagchi/books-dataset
             System.out.print("Loading catalog...");
             String path = "LibraryManagementLab/book_catalog.csv";  // Change directory as needed
@@ -32,4 +33,5 @@ public class LibraryManager {
 
     // TODO: Implement main program; make a new Library object, load the catalog,
     // add each book from the catalog to the library, then display the menu
-}
+        */
+    }

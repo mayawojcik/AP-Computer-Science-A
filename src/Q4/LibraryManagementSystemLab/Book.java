@@ -1,7 +1,7 @@
 package Q4.LibraryManagementSystemLab;
 
-public class Book extends Media {
-    private String author;
+public class Book /*extends Media*/ {
+   /* private String author;
 
     // TODO: Implement constructor (title, isbn, author); call super constructor
 
@@ -14,5 +14,5 @@ public class Book extends Media {
                 ", isbn='" + getIsbn() + '\'' +
                 ", author='" + author + '\'' +
                 '}';
-    }
+    }*/
 }

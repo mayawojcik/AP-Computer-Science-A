@@ -73,7 +73,6 @@ public class MainForm extends JFrame {
                 updateStatusLabel();
                 waitButtons(1);
                 // TODO: Implement putting the selected pet to sleep
-            
             }
         });
 
@@ -86,7 +85,7 @@ public class MainForm extends JFrame {
                     return;
 
                 // TODO: Implement pet selection change
-                // 1. Grab the szelogowski pet from the petManager using petSelectorComboBox.getSelectedIndex()
+                // 1. Grab the szelogowski(mwehehehe) pet from the petManager using petSelectorComboBox.getSelectedIndex()
                 Pet szelogowski = PetManager.getSelectedPet(petSelectorComboBox.getSelectedIndex());
                 // 2. Update statusLabel with the selected pet's status
                 updateStatusLabel();
@@ -99,7 +98,7 @@ public class MainForm extends JFrame {
         adoptAFoxButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String sydney = JOptionPane.showInputDialog("Enter new pet name: ");
+                String sydney = JOptionPane.showInputDialog("Enter new fox name: ");
                  if (!sydney.trim().isEmpty()) {
                      PetManager.addPet(new Fox(sydney));
                     updatePetList();
@@ -112,7 +111,7 @@ public class MainForm extends JFrame {
         adoptACatButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String maya = JOptionPane.showInputDialog("Enter new pet name: ");
+                String maya = JOptionPane.showInputDialog("Enter new cat name: ");
                  if (!maya.trim().isEmpty()) {
                      PetManager.addPet(new Cat(maya));
                     updatePetList();
@@ -124,7 +123,7 @@ public class MainForm extends JFrame {
         adoptADogButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String marlon = JOptionPane.showInputDialog("Enter new pet name: ");
+                String marlon = JOptionPane.showInputDialog("Enter new dog name: ");
                  if (!marlon.trim().isEmpty()) {
                      PetManager.addPet(new Dog(marlon));
                     updatePetList();

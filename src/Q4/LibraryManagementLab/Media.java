@@ -6,6 +6,8 @@ public abstract class Media {
     private boolean isCheckedOut;
 
     // TODO: Implement constructor (title, isbn)
+    public Media(String title, String isbn) {
+    }
 
     // TODO: Implement getter methods
     public void setCheckedOut(boolean checkedOut) { isCheckedOut = checkedOut; }

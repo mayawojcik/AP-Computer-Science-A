@@ -7,6 +7,12 @@ public class Transaction {
     private String returnDate; // Optional, can be null if not returned yet
 
     // TODO: Implement constructor (isbn, patronId, checkoutDate); set returnDate to null by default
+    public Transaction(String isbn, String patronId, String checkoutDate) {
+        this.isbn = isbn;
+        this.patronId = patronId;
+        this.checkoutDate = checkoutDate;
+        returnDate = null;
+    }
 
     // TODO: Implement getters and setters
 

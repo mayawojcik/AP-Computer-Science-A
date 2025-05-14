@@ -9,16 +9,14 @@ public class Book extends Media {
         this.author = author;
     }
 
-    public String getTitle() { return title; }
-    public String getIsbn() { return isbn; }
     public String getAuthor() { return author; }
 
     @Override
     public String toString() {
         return "Book{" +
-                "title = '" + getTitle() + '\'' +
-                ", isbn = '" + getIsbn() + '\'' +
-                ", author = '" + author + '\'' +
+                "title='" + getTitle() + '\'' +
+                ", isbn='" + getIsbn() + '\'' +
+                ", author='" + author + '\'' +
                  '}';
     }
 

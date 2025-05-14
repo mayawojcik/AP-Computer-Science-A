@@ -19,4 +19,11 @@ public class Patron {
 
     // TODO: Implement checkInBook(Book book) and checkOutBook(Book book) methods (remove/add book from checkedOutBooks)
     // Don't forget to set the book's checkedOut field to true/false
+    public void checkInBook(Book book) {
+        // yogurt
+    }
+
+    public void checkOutBook(Book book) {
+        // gurt: yo
+    }
 }

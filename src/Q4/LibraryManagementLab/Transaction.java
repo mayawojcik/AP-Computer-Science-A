@@ -15,10 +15,16 @@ public class Transaction {
     }
 
     // TODO: Implement getters and setters
+    // YAY DONE!!!!!!! I'M SO BRILLIANT!!!! :D
     public String getIsbn() { return isbn; }
     public String getPatronId() { return patronId; }
     public String getCheckoutDate() { return checkoutDate; }
     public String getReturnDate() { return returnDate; }
+
+    public void setIsbn(String isbn) { this.isbn = isbn; }
+    public void setPatronId(String patronId) { this.patronId = patronId; }
+    public void setCheckoutDate(String checkoutDate) { this.checkoutDate = checkoutDate; }
+    public void setReturnDate(String returnDate) { this.returnDate = returnDate; }
 
     @Override
     public String toString() {

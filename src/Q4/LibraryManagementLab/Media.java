@@ -9,6 +9,7 @@ public abstract class Media {
     public Media(String title, String isbn) {
         this.title = title;
         this.isbn = isbn;
+        isCheckedOut = false;
     }
 
     // TODO: Implement getter methods

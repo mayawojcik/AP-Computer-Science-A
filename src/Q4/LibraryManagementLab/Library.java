@@ -11,6 +11,9 @@ public class Library implements LibrarySystem {
     private ArrayList<Transaction> transactions;
 
     // TODO: Implement the constructor
+    public Library(){
+
+    }
 
     // Implement interface methods
     @Override
@@ -30,7 +33,8 @@ public class Library implements LibrarySystem {
 
     @Override
     public Book findClosestBook(String title) {
-        // TODO: Search for the closest book title using .toLowerCase() and .contains(); return the closest book or null
+        // TODO: Search for the closest book title using .toLowerCase()
+        //  and .contains(); return the closest book or null
     }
 
     @Override

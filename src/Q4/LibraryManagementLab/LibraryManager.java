@@ -1,5 +1,4 @@
 package Q4.LibraryManagementLab;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -33,4 +32,15 @@ public class LibraryManager {
 
     // TODO: Implement main program; make a new Library object, load the catalog,
     // add each book from the catalog to the library, then display the menu
+    // bruh.
+    public static void main(String[] args) {
+        Scanner sydney = new Scanner(System.in);
+        // I <3 Sydney!!!!!
+        System.out.println("Menu:\n" + "1.\tAdd Patron" + "2.\tAdd Book" +
+                "3.\tRemove Book" + "4.\tCheckout Book" + "5.\tReturn Book" +
+                "6.\tSearch Book" + "7.\tSearch Book Transaction" + "8.\tExit");
+        System.out.println("Enter choice: ");
+            int num = sydney.nextInt();
+
+    }
 }

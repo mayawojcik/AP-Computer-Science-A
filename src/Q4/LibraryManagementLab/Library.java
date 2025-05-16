@@ -1,5 +1,4 @@
 package Q4.LibraryManagementLab;
-
 import java.time.Instant;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
@@ -11,9 +10,7 @@ public class Library implements LibrarySystem {
     private ArrayList<Transaction> transactions;
 
     // TODO: Implement the constructor
-    public Library(){
 
-    }
 
     // Implement interface methods
     @Override

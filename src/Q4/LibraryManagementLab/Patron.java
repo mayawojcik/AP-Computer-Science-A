@@ -1,5 +1,4 @@
 package Q4.LibraryManagementLab;
-
 import java.util.ArrayList;
 
 public class Patron {
@@ -22,6 +21,8 @@ public class Patron {
     // Don't forget to set the book's checkedOut field to true/false
     public void checkInBook(Book book) {
         // yogurt
+        ArrayList<Book> checkoutOutBooks = new ArrayList<Book>();
+            for (int lcv = 0; lcv < Book.length(); lcv++)
 
     }
 

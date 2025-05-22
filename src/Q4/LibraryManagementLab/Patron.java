@@ -22,7 +22,9 @@ public class Patron {
     public void checkInBook(Book book) {
         // yogurt
         ArrayList<Book> checkoutOutBooks = new ArrayList<Book>();
-            for (int lcv = 0; lcv < Book.length(); lcv++)
+            for (int lcv = 0; lcv < Book.length(); lcv++) {
+
+            }
 
     }
 

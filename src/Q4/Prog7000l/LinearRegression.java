@@ -23,7 +23,7 @@ public class LinearRegression {
 
         for (int epoch = 0; epoch < epochs; epoch++) {
             if (epoch > 0) {
-                double temp0 = 0; temp1 = 0;
+                double temp0 = 0, temp1 = 0;
                 // RHS of Gradient Descent -> h_theta(x_i) - y_i
                 for (int i = 0; i < m; i++) {
                     // Predicted label - actual label
@@ -50,5 +50,8 @@ public class LinearRegression {
     public double getIntercept() { return theta0; }
     public double getSlope() { return theta1; }
 
-
+    //TODO: toString()
+    public String toString() {
+        return "Regression line: y = " + theta1 + " * x + " + theta0 + "\nObjective: " + Arrays.toString(objective) + "\nMin. Objective: " + Arrays.stream(objective).min().getAsDouble();
+    }
 }

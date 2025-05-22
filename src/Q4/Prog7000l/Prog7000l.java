@@ -1,9 +1,7 @@
 package Q4.Prog7000l;
-import java.util.*;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
 public class Prog7000l {
     public static void main(String[] args) {
@@ -11,9 +9,9 @@ public class Prog7000l {
             Scanner file = new Scanner(new File("Langdat/prog7000l.csv"));
             var X = new ArrayList<Double[]>();
             var y = new ArrayList<Double>();
-            // Home, Price, SqFit, Bedrooms, Bathrooms, Offers, Brick, Neighborhood
+            // Home,Price,SqFt,Bedrooms,Bathrooms,Offers,Brick,Neighborhood
             file.nextLine();
-            while (file.hasNext()) {
+            while (file.hasNextLine()) {
                 String line = file.nextLine();
                 String[] data = line.split(",");
                 Double[] row = {
@@ -29,30 +27,35 @@ public class Prog7000l {
                 X_train[i][1] = X.get(i)[1];
             }
             var y_train = new double[y.size()];
-            for (int i = 0; i < y.size(); i++) {
+            for (int i = 0; i < y.size(); i++)
                 y_train[i] = y.get(i);
 
-                var lr = new LinearRegression(60, 100, 0.000_0001, 0.00001);
-                lr.fit(X_train, y_train, 100);
-                System.out.println(lr);
+            var lr = new LinearRegression(60, 100, 0.000_0001, 0.00001);
+            lr.fit(X_train, y_train, 100);
+            System.out.println(lr);
 
-                double sqFoot = 1897;
-                // Find comparable data point
-                double closestPoint = X_train[0][0];
-                int closestIndex = 0;
-                for (int j = 1; j < X_train.length; j++) {
-                    if (Math.abs(X_train[j][0]-sqFoot) < Math.abs(closestPoint - sqFoot)) {
-                        closestPoint = X_train[j][0];
-                        closestIndex = j;
-                    }
+            double sqFoot = 1897;
+            // Find comparable data point
+            double closestPoint = X_train[0][0];
+            int closestIndex = 0;
+            for (int i = 1; i < X_train.length; i++) {
+                if (Math.abs(X_train[i][0]-sqFoot) < Math.abs(closestPoint-sqFoot)) {
+                    closestPoint = X_train[i][0];
+                    closestIndex = i;
                 }
-                System.out.println("Predicted price for " + sqFoot + " sqft: " + lr.predict(sqFoot));
-                System.out.println("Compared to " + closestPoint + " sqft: " + y_train[closestIndex]);
             }
+            System.out.println("Predicted price for " + sqFoot + " sqft: " + lr.predict(sqFoot));
+            System.out.println("Compared to " + closestPoint + " sqft: " + y_train[closestIndex]);
 
-            } catch(IOException e){
-                System.out.println("Error: " + e);
-            }
+        } catch (IOException e) {
+            System.out.println("Error: " + e);
         }
     }
-
+}
+/*
+Regression line: y = 2606.242921352889 * x + 101.25731301735047
+Objective: [7.774677E10, 2.876234596135589E11, 1.196340593562754E12, 2.803478475047673E12, 5.108617603303446E12, 8.111338673516148E12, 1.1811222576738762E13, 1.6207850399807129E13, 2.1300803425256023E13, 2.7089663131235086E13, 3.357401119142505E13, 4.07534294749538E13, 4.862750004631245E13, 5.7195805165271625E13, 6.645792728679777E13, 7.641344906096908E13, 8.706195333289219E13, 9.840302314261825E13, 1.1043624172505939E14, 1.2316119250990502E14, 1.3657745912153845E14, 1.5068462537895306E14, 1.654822752956689E14, 1.8096999307964988E14, 1.9714736313321884E14, 2.14013970052976E14, 2.3156939862971375E14, 2.4981323384833503E14, 2.6874506088776875E14, 2.883644651208875E14, 3.086710321144231E14, 3.296643476288846E14, 3.513439976184752E14, 3.737095682310077E14, 3.9676064580782256E14, 4.204968168837051E14, 4.449176681868016E14, 4.70022786638537E14, 4.9581175935353094E14, 5.222841736395166E14, 5.494396169972557E14, 5.772776771204581E14, 6.057979418956962E14, 6.349999994023246E14, 6.64883437912396E14, 6.95447845890579E14, 7.266928119940745E14, 7.586179250725346E14, 7.912227741679798E14, 8.245069485147152E14, 8.584700375392468E14, 8.931116308602031E14, 9.284313182882524E14, 9.644286898260119E14, 1.0011033356679776E15, 1.0384548462004341E15, 1.0764828120013731E15, 1.1151868238404131E15, 1.1545664726787168E15, 1.1946213496689068E15, 1.2353510461549862E15, 1.276755153672256E15, 1.3188332639472298E15, 1.361584968897555E15, 1.4050098606319308E15, 1.4491075314500222E15, 1.4938775738423838E15, 1.539319580490377E15, 1.5854331442660778E15, 1.632217858232214E15, 1.6796733156420642E15, 1.7277991099393848E15, 1.7765948347583355E15, 1.8260600839233805E15, 1.8761944514492195E15, 1.926997531540705E15, 1.9784689185927542E15, 2.030608207190274E15, 2.0834149921080742E15, 2.1368888683107935E15, 2.1910294309528065E15, 2.2458362753781518E15, 2.3013089971204495E15, 2.357447191902816E15, 2.4142504556377795E15, 2.471718384427216E15, 2.5298505745622385E15, 2.588646622523147E15, 2.6481061249793285E15, 2.708228678789177E15, 2.76901388100002E15, 2.830461328848027E15, 2.8925706197581415E15, 2.95534135134399E15, 3.0187731214077975E15, 3.082865527940325E15, 3.1476181691207665E15, 3.213030643316683E15, 3.2791025490839045E15, 3.345833485166483E15]
+Min. Objective: 7.774677E10
+Predicted price for 1897.0 sqft: 4944144.079119449
+Compared to 1900.0 sqft: 106900.0
+ */
